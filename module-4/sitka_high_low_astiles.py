@@ -29,7 +29,7 @@ with open(filename) as f:
         highs.append(high)
         lows.append(low)
 
-# Function to plot temperatures
+# Function to plot temps
 def plot_temperatures(dates, temps, label, color):
     plt.style.use('ggplot')  # Use ggplot style
     fig, ax = plt.subplots()
